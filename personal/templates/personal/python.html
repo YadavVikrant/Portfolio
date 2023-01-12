@@ -1,0 +1,45 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'personal/src/pythn.css '%}">
+        <nav>
+            <img class="logo" src="{% static 'personal/images/11.png'%}" alt="logo" >
+            <ul>
+                <li><a href="{% url 'personal:home' %}" >Home</a></li>
+                <li><a href="{% url 'personal:project' %}" >Back</a></li>
+                
+            </ul>
+        </nav>
+    </head>
+    <body>
+        <div class="hero" style="margin-left:10%;margin-right:10%">
+               
+            <img class="img1" style="width:80% ;margin-left:10%"src="{% static 'personal/images/Screenshot_132.png'%}" alt="logo" >
+            
+            <h1 style="margin-left:10% ">Yadav Fitness</h1>
+
+            <p style="font-size:20px;margin-left:10%" >
+                This  template has everything to present your gym of fitness facility online in the best possible light.
+                Yadav fitness demo is a fantastic solution for the fitness facility that wants to display gorgeous 
+                visual content of facilities, routines, and services to a wide online audience.</p>
+
+
+           <h1 style="margin-left:10%;">Course</h1>
+           <p style="font-size:20px;margin-left:10%">
+            All the workout program detail are given in this section like Muscle gain , Fat loss Program, Cross Fit ,Boxing.Complete Detail is given is like whats the goal of program you chose,why you should choose this Program and How they gonna process week wise. </p>
+           
+            <h1 style="margin-left:10%">Course</h1>
+           <p style="font-size:20px;margin-left:10%">
+            All the program Price detail are given in this section for every programm they are giving like Muscle gain , Fat loss Program, Cross Fit ,Boxing.</p>
+
+            <h1 style="margin-left:10%">Gallery </h1>
+           <p style="font-size:20px;margin-left:10%">
+            Gallery is TO get the batter view of gym inside like place and equipment.
+            Also some client photo of their  body transformation using their progamm.
+        </p>
+
+        </div>
+
+    </body>
+</html>
+

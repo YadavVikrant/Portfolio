@@ -1,0 +1,124 @@
+
+body {  
+  background: #eff4fd;
+  overflow: hidden;
+  
+ }
+ 
+
+.main{
+  background-color: lightblue;
+  width: 80%;
+  padding: 6px;
+  margin-top: 205px;
+  margin-left: 98px;
+  /* margin-bottom: 39px; */
+  box-shadow: 8px 10px rgb(78 8 8 / 72%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transition: all ease ls;
+  
+
+
+   
+}
+/* .seperator {
+  height: 184px;
+  width: 2px;
+  background: black;
+  top: 162px;
+  bottom: 0;
+  position: absolute;
+  left: 442px;
+} */
+
+
+.ndtvlogo{
+    border-radius: 8%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    font-size: large;
+  }
+
+  .column1{
+    float: left;
+    width: 60%;
+    padding: 5px;
+    font-size: 25px;
+  }
+
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+
+
+  .Point {
+    background: bisque;
+    width: 70%;
+    padding: -12px;
+    margin-left: 158px;
+    margin-top: 19px;
+    border: solid;
+    border-radius: 12px;
+    /* height: 400px; */
+    /* display: none;
+    transition: all ease ls; */
+  
+    box-shadow: 8px 10px rgb(67 96 73 / 72%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    opacity: 0;
+    transition: all ease ls;
+}
+
+.main:hover + .Point {
+  display: block;
+  
+  font-size: 25px;
+  /* overflow: scroll; */
+ 
+}
+
+.main:hover{
+  margin-top: 80px;
+  padding: 0px;
+
+}
+
+.main:hover + .Point{
+  opacity: 1;
+}
+
+/* .ndtvlogo:focus + .Point {
+  display: block;
+  
+  font-size: 25px;
+} */
+
+.mainlist{
+  margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 16px;
+    list-style-type: disclosure-closed;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.desc{
+  font-weight: lighter;
+}
+
+span{
+  color: green;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+

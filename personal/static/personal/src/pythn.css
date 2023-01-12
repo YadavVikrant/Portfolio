@@ -1,0 +1,43 @@
+nav{
+    display:flex;
+    width:74%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover{
+    color:red;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+/* .hero{
+    height:500px;
+    width:500px;
+    border-style: solid;
+    border-width: thin;
+    margin-left:8px;
+} */
+
+body{
+    background-color: beige;
+}

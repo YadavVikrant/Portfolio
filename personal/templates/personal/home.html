@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0" >
+
+         <title>
+        ❤️ VIkrant Resume
+        </title>
+        <link rel="stylesheet" href="{% static 'personal/src/style.css '%}">
+    </head>
+<body>
+   <div class="hero"> 
+    <nav>
+        <img class="logo" src="{% static 'personal/images/11.png'%}" alt="logo" >
+        <ul>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="{% url 'personal:project' %}" >Project</a></li>
+            <li><a href="{% url 'personal:exp' %}" >Experience </a></li>
+            <li><a href="#" >Hire Me</a></li>
+        </ul>
+    </nav>
+    <div class="detel">
+        <h1>I,m Vikrant<span>Yadav </span></h1>
+        <p>This is my official Portfolio website to showes all
+            <br> Details and work Exp.
+
+        </p>
+     <a href="#">Download CV</a>
+    </div>
+     <div class="imgs" >
+        <img class="shape" src="{% static 'personal/images/shape.png'%}" >
+        <img class="name" src="{% static 'personal/images/name.jpeg  '%}" >
+    </div>
+    </div>
+
+    
+</body>
+</html>

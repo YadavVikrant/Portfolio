@@ -1,0 +1,143 @@
+.background {
+  background-color: green;
+  height: 150px;
+  padding: 10px;
+}
+
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 6px;
+  text-align: center;
+  margin-right: 21px;
+  display: inline-block;
+  
+}
+
+.card img {
+  height: 70%;
+  background-color: blanchedalmond;
+  image-rendering: pixelated;
+  border-radius: 5px;
+ 
+}
+
+h1{
+  background: rgb(161, 130, 130);
+  margin-top: 8px;
+
+}
+
+.ml{
+  height: 60%;
+}
+
+
+
+/* BEGIN CARD DESIGN */
+.hero {
+  display: inline-block;
+  position: relative;
+  width:300px;
+  min-width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  
+  overflow:hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.hero-profile-img {
+  height: 65%;
+}
+
+.hero-description-bk {
+  background-image: linear-gradient(0deg , #3f5efb, #fc466b);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  height: 65%;
+  width: 108%;
+  transform: skew(20deg, -15deg);
+}
+
+.second .hero-description-bk {
+  background-image: linear-gradient(-20deg , #bb7413, #e7d25c)
+}
+
+.third .hero-description-bk {
+  background-image: linear-gradient(-20deg , #48bb13, #5ce77a)
+}
+
+.hero-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 30%;
+  left: 30px;
+  overflow:hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+}
+
+.hero-logo img {
+  height:65px;
+}
+
+.hero-description {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 120px;
+  bottom: 20%;
+}
+
+.hero-btn {
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  bottom: 10%;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+
+.hero-btn a {
+  color: #fff;
+}
+
+.hero-date {
+  position: absolute;
+  color: #fff;
+  left: 30px;
+  bottom: 10%;
+}
+/* END CARD DESIGN */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #eee;
+  min-height: 100vh;
+  margin-left: 10%;
+}
+
+.btn i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top:5px;
+  right:5px;
+}
